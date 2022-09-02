@@ -1,1 +1,37 @@
 
+2022-09-02 19:24:22,331 INFO flask.app Thread-2 : Predictionn: 
+[20.35373177134412]
+2022-09-02 19:24:22,332 INFO werkzeug Thread-2 : 172.17.0.1 - - [02/Sep/2022 19:24:22] "POST /predict HTTP/1.1" 200 -
+2022-09-02 19:24:23,966 INFO flask.app Thread-3 : JSON payload: 
+{'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
+2022-09-02 19:24:23,978 INFO flask.app Thread-3 : Inference payload DataFrame: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+2022-09-02 19:24:23,989 INFO flask.app Thread-3 : Scaling Payload: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+2022-09-02 19:24:23,993 INFO flask.app Thread-3 : Predictionn: 
+[20.35373177134412]
+2022-09-02 19:24:23,994 INFO werkzeug Thread-3 : 172.17.0.1 - - [02/Sep/2022 19:24:23] "POST /predict HTTP/1.1" 200 -
+2022-09-02 19:24:24,890 INFO flask.app Thread-4 : JSON payload: 
+{'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
+2022-09-02 19:24:24,903 INFO flask.app Thread-4 : Inference payload DataFrame: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+2022-09-02 19:24:24,914 INFO flask.app Thread-4 : Scaling Payload: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+2022-09-02 19:24:24,918 INFO flask.app Thread-4 : Predictionn: 
+[20.35373177134412]
+2022-09-02 19:24:24,919 INFO werkzeug Thread-4 : 172.17.0.1 - - [02/Sep/2022 19:24:24] "POST /predict HTTP/1.1" 200 -
+2022-09-02 19:24:25,898 INFO flask.app Thread-5 : JSON payload: 
+{'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
+2022-09-02 19:24:25,911 INFO flask.app Thread-5 : Inference payload DataFrame: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+2022-09-02 19:24:25,922 INFO flask.app Thread-5 : Scaling Payload: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+2022-09-02 19:24:25,926 INFO flask.app Thread-5 : Predictionn: 
+[20.35373177134412]
+2022-09-02 19:24:25,927 INFO werkzeug Thread-5 : 172.17.0.1 - - [02/Sep/2022 19:24:25] "POST /predict HTTP/1.1" 200 -

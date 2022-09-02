@@ -1,5 +1,4 @@
-FROM python:3.7.3-stretch
-
+FROM python:3.7.11-stretch
 
 ## Step 1:
 # Create a working directory
@@ -9,11 +8,11 @@ WORKDIR /app
 # Copy source code to working directory
 COPY . /app
 
-
 ## Step 3:
 # Install packages from requirements.txt
 # hadolint ignore=DL3013
-RUN pip install -r requirements.txt
+RUN pip install --no-cache-dir  --upgrade pip && \
+    pip install --no-cache-dir -r requirements.txt
 
 ## Step 4:
 # Expose port 80
